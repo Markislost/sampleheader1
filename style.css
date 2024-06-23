@@ -79,6 +79,7 @@ a{
     transform: translateX(0);
 }
 .btn-close{
+    background: #252525;
     display: block;
     width: 33px;
     height: 33px;
@@ -98,7 +99,16 @@ a{
 .navbar-nav{
     margin: 1.4rem 0;
 }
+.nav-item{
+    margin: 4rem 0;
+}
 
+.nav-link{
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.3rem;
+    transition: color 0.5s ease;
+}
 .nav-link:hover{
     color: #39b54a;
 }
@@ -116,7 +126,7 @@ a{
 }
 /***color of social icons**/
 .nav-social-icons a{
-    color: #303030;
+    color: #fff;
 }
 /*********************end of Show menu************************/
 
